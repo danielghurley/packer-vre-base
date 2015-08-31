@@ -1,5 +1,5 @@
 ### Overview
-These are the Packer scripts to build the 32-bit reference environment base used by the [Melbourne Systems Biology Laboratory](http://uomsystemsbiology.github.io/).  To learn more about reference environments, [see the detailed description here](http://reference-environments-link.org).    
+These are the Packer scripts to build the 32-bit reference environment base used by the [Melbourne Systems Biology Laboratory](http://uomsystemsbiology.github.io/).  To learn more about reference environments, [see the detailed description here](http://uomsystemsbiology.github.io/reference-environments/).    
 
 ### Instructions for use
 
@@ -18,6 +18,6 @@ $ packer build -var-file=keys.json
 
 This will build the reference environment for all three platforms and upload them to Atlas, and to the Docker Hub.  
 
-For more details, consult the [Packer documentation](https://packer.io/docs].
+For more details, consult the [Packer documentation](https://packer.io/docs).
 
 
